@@ -22,3 +22,8 @@ function checkCountValue() {
     }
   }
 
+function resetCount() {
+    document.getElementById('countDisplay').innerText = "0";
+    alert("The follower counter has been reset.");
+}
+
